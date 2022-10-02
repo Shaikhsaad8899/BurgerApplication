@@ -1,14 +1,13 @@
-import React from "react";
-// import { ProgressPlugin } from "webpack";
-import classes from "./NavigationItem.css";
+import React from 'react';
 
-const NavigationItem = (props) => (
-  <li className={classes.NavigationItem}>
-    <a 
-    href={props.link}
-    className={props.active ? classes.active : null}
-    >{props.children}</a>
-  </li>
+import classes from './NavigationItem.css';
+
+const navigationItem = ( props ) => (
+    <li className={classes.NavigationItem}>
+        <a 
+            href={props.link} 
+            className={props.active ? classes.active : null}>{props.children}</a>
+    </li>
 );
 
-export default NavigationItem;
+export default navigationItem;
