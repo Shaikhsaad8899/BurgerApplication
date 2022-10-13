@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+
 import classes from './Toolbar.css';
 import Logo from '../../Logo/Logo';
 import NavigationItems from '../NavigationItems/NavigationItems';
@@ -9,7 +9,7 @@ const toolbar = ( props ) => (
     <header className={classes.Toolbar}>
         <DrawerToggle clicked={props.drawerToggleClicked} />
         <div className={classes.Logo}>
-        <Link to="/"> <Logo /></Link>  
+            <Logo />
         </div>
         <nav className={classes.DesktopOnly}>
             <NavigationItems />

@@ -1,6 +1,3 @@
-.Burger::-webkit-scrollbar {
-    display: none;
-  }
 .Burger {
     width: 100%;
     margin: auto;
