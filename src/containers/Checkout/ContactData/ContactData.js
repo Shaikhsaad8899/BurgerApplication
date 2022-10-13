@@ -14,7 +14,7 @@ class ContactData extends Component {
             postalCode: ''
         },
         loading: false
-    }
+    }       
 
     orderHandler = ( event ) => {
         event.preventDefault();
