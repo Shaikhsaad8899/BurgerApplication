@@ -3,10 +3,8 @@
     width: 80%;
     text-align: center;
     box-shadow: 0 2px 3px #ccc;
-    border: 2px solid #703B09;
-    background-color: #c16814;
+    border: 1px solid #eee;
     padding: 10px;
-    border-radius: 8px;
     box-sizing: border-box;
 }
 
